@@ -22,7 +22,7 @@ function About() {
                          }}
                         className={styles.pricing__container__cardInfo}>
                             <h3>О нас</h3>
-                            <h4>addddddddwfsz eeeeeeeefas wwwwwwqerqr shgsrhgosr srfs rgsjb sljgbsilrigbsrilgjilsrb jsldfbli sjlrjb gjsrbg sjb skb qhe fhqeffb kjhfks</h4>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum posuere urna nec tincidunt praesent semper feugiat. Amet est placerat in egestas erat imperdiet sed euismod. Non blandit massa enim nec dui. Mus mauris vitae ultricies leo integer malesuada nunc vel risus.</h4>
                         </motion.div>
                     </div>
                     <div className={styles.space}></div>
