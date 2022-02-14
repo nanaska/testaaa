@@ -15,7 +15,7 @@ const FormSignup = ({ submitForm }) => {
       var token = "5176710730:AAHp06mFlyekBqT7zISV4H6OpFjz877j4HI"
       var chat_id = "-774235403"
       console.log(name,email,needs,token)
-      fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${name},${email},${needs}`)
+      fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${name},%0A${email},%0A${needs}`)
     }
   return (
     <div className='form-content-right'>
