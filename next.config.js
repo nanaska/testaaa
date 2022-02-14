@@ -1,4 +1,10 @@
 const withVideos = require('next-videos')
- 
-module.exports = withVideos()
+const a = {
+    i18n: {
+      locales: ["ru"],
+      defaultLocale: "ru",
+    },
+  };
+module.exports = withVideos();
+
 

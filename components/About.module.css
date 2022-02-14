@@ -82,7 +82,7 @@
   .pricing__container__cardInfo {
     display: flex;
     flex-direction: column;
-
+    padding-bottom: 2rem;
     padding: 24px;
     align-items: flex-start;
     color: black;
@@ -139,7 +139,7 @@
     }
     .pricing__container__card2 {
         margin-left: 0px;
-        
+        margin-right: 0px;
        
         width: 300px;
         height: 380px;
@@ -148,7 +148,7 @@
       .pricing__container__cardInfo h4 {
         
         padding-top: 0px;
-        font-size: 24px;
+        font-size: 18px;
         color: #fff;
       }
       

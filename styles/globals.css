@@ -518,7 +518,7 @@
   
   .form {
     position: relative;
-    margin-top: 24rem;
+    margin-top: 18rem;
     margin-left: 50%;
     transform: translate(-50%, -50%);
       width: 90%;
@@ -564,8 +564,21 @@
     width: 100%;
     border: none;
   }
+  .form-input2 {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 70px;
+    width: 100%;
+    border: none;
+  }
   
   .form-input::placeholder {
+    color: #595959;
+    font-size: 12px;
+  }
+  .form-input2::placeholder {
     color: #595959;
     font-size: 12px;
   }
@@ -585,6 +598,7 @@
     color: #fff;
     font-size: 1rem;
   }
+  
   
   .form-input-btn:hover {
     cursor: pointer;

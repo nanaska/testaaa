@@ -50,7 +50,7 @@ const FormSignup = ({ submitForm }) => {
         <div className='form-inputs'>
           <label className='form-label'>Введите что вы хотите купить</label>
           <input
-            className='form-input'
+            className='form-input2'
             type='text'
             name='needs'
             placeholder='Ваше желание'

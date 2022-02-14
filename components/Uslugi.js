@@ -1,13 +1,23 @@
 import styles from "./Uslugi.module.css";
 import {Link} from "react-scroll"
+import { motion, useViewportScroll, useTransform } from "framer-motion";
 function Uslugi() {
     return (
         <>
             <div className={styles.pricing__section} id="thirdsection">
-                <div className={styles.pricing__wrapper}>
+                <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ duration: 2 }}
+                variants={{
+                    visible: { opacity: 1,  x: 0, y:0 },
+                    hidden: { opacity: 0, x: 0, y: 100 }
+                }}
+                className={styles.pricing__wrapper}>
                     <h1 className={styles.pricing__heading}>Услуги</h1>
                     <div className={styles.pricing__container}>
-
+                        
                         <div className={styles.pricing__container__card}>
                             <div className={styles.pricing__container__cardInfo}>
                                 <h3>обычный</h3>
@@ -69,7 +79,7 @@ function Uslugi() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
 
 

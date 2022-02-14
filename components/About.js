@@ -37,7 +37,7 @@ function About() {
                             transition={{ duration: 2 }}
                             variants={{
                                 visible: { opacity: 1, scale: 1, rotate: 0, x: 0, y:0 },
-                                hidden: { opacity: 0, scale: 0, rotate: 45, x: 100, y: 100 }
+                                hidden: { opacity: 0, scale: 0, rotate: 45, x: 100, y: -200 }
                             }}
                         >
                         <Image src={rocket} width={300} height={300} />
