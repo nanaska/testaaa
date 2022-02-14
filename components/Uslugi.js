@@ -1,5 +1,5 @@
 import styles from "./Uslugi.module.css";
-import Link from "next/link"
+import {Link} from "react-scroll"
 function Uslugi() {
     return (
         <>
@@ -16,7 +16,10 @@ function Uslugi() {
                                     <li>Будут дети здоровы</li>
                                     <li>Будет счастье тебе</li>
                                 </ul>
-                                <Link href="/">
+                                <Link to='fourthsection'
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500} >
                                     <button
                                         className={`btn btn--outline btn--large`}
                                     >
@@ -33,7 +36,10 @@ function Uslugi() {
                                     <li>Будут дети здоровы</li>
                                     <li>Будет счастье тебе</li>
                                 </ul>
-                                <Link href="/">
+                                <Link to='fourthsection'
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500} >
                                     <button
                                         className={`btn btn--outline btn--large`}
                                     >
@@ -50,7 +56,10 @@ function Uslugi() {
                                     <li>Будут дети здоровы</li>
                                     <li>Будет счастье тебе</li>
                                 </ul>
-                                <Link href="/">
+                                <Link to='fourthsection'
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500} >
                                     <button
                                         className={`btn btn--outline btn--large`}
                                     >
